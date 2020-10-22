@@ -1,8 +1,11 @@
 def main():
     #write your code below this line
-    acct = Account("Arto's account", 100)
-    acct.deposit(20)
-    print(acct.balance)
+    # acct = Account("Arto's account", 100)
+    # acct.deposit(20)
+    # print(acct.balance)
+    acc = Account("Jaime's Account", 100)
+    acc.deposit(20)
+    print(acc.balance)
 
 # Don't edit below this line - this setup is required for testingss 
 if __name__ == '__main__':
